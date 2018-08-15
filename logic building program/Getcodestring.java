@@ -1,4 +1,4 @@
-Get code through strings in java
+/* Get code through strings in java
 
 Explanation:
 
@@ -11,11 +11,11 @@ Length of the word "worlds" = 6
 add their length to get total length = 5+6 = 11
 
 which is not a single digit, so continuously add all digits till we get single digit i.e. 1+1=2 Therefore, the single digit is = 2 (as answer/output).
-
+*/
 
 
 import java.util.*;
-class Codestr{
+class getcodestring{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 String word=sc.nextLine();
